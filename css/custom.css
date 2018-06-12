@@ -1,0 +1,55 @@
+.sm {
+    font-size: 0.9em !important;
+}
+
+.sm2 {
+    font-size: 0.8em !important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.col { flex: 1; }
+.col2 { flex: 2; }
+.col3 { flex: 3; }
+
+.fixed-width {
+    width: 700px;
+}
+
+.no-border {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.no-color {
+    background-color: #222 !important;
+}
+
+#sticky-twitter {
+    position: fixed;
+    left: 4%;
+    bottom: 4%;
+    color: grey;
+}
+
+#sticky-hashtag {
+    position: fixed;
+    right: 4%;
+    bottom: 4%;
+    color: grey;
+}
+
+.highlight-box {
+    border: 3px solid red !important;
+    position: absolute;
+}
+
+ul, li {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 60%;
+}
+
